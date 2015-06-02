@@ -1,6 +1,7 @@
 import java.util.Hashtable;
 
 import jpl.*;
+import jpl.Integer;
 
 
 public class PrologFun {
@@ -17,6 +18,9 @@ public class PrologFun {
 	*/
 		Query q2 =new Query("factorial(3,X)");
 		System.out.println(q2.oneSolution().get("X"));
+		Query q3 = new Query("numbersBetween(1,10,R");
+		Hashtable[] R = q3.allSolutions().get("R");
+		System.out.println(R);
 //		Variable X = new Variable();
 //		Query q2 = new Query("factorial",new Term[] {new Atom("1234"),X } );
 //		java.util.Hashtable solution;
