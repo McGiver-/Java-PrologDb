@@ -12,6 +12,8 @@ public class PrologFun {
 		
 		BetterQuery.ask("gcd(9,3,G)","G");
 		
+		BetterQuery.ask("factorial(9,Q)","Q");
+		
 		BetterQuery.ask("rev([1,2,3,4],F)","F");
 		
 		BetterQuery.ask("assert(man(mario))");
